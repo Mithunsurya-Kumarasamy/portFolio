@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
-  Menu, X, Download, ExternalLink, Mail, Code, Database, Zap, FileText, ChevronDown, ArrowRight,
+  Menu, X, Download, Mail, Zap, ChevronDown,
 } from 'lucide-react';
 import { 
-  FaGithub as Github, FaLinkedin as Linkedin, FaReact, FaNodeJs, FaPython, 
-  FaGitAlt, FaDocker, FaLinux, FaHtml5, FaCss3Alt, FaDatabase, FaCode 
+  FaGithub as Github, FaLinkedin as Linkedin, FaReact, FaPython, 
+  FaGitAlt, FaHtml5, FaCss3Alt, FaDatabase, FaCode 
 } from 'react-icons/fa';
-import { SiTailwindcss, SiJavascript, SiExpress, SiC, SiMongodb, SiMysql, SiScikitlearn, SiLeetcode, SiCplusplus, SiPandas, SiNumpy } from 'react-icons/si';
+import { SiJavascript, SiC, SiMongodb, SiMysql, SiScikitlearn, SiLeetcode, SiCplusplus, SiPandas, SiNumpy } from 'react-icons/si';
 import MarvelousBackground from './MarvelousBackground';
 
 // Custom Hook for Mouse Position
